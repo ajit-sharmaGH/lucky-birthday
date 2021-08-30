@@ -1,0 +1,101 @@
+body {
+    /* background-color: rgba(202, 184, 184, 0.603); */
+    color: blue;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+input,
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 2.5rem;
+    width: 100%;
+    padding: 18px;
+    border-color: black;
+    border-radius: 0.6rem;
+    background-color: lightyellow;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+
+#check-number {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: yellow;
+    color: green;
+    font-family: cursive;
+    border-color: red;
+    border-radius: 0.3rem;
+    border-width: medium;
+    padding: 0.3rem;
+}
+
+#check-button {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: yellow;
+    color: green;
+    font-family: cursive;
+    border-color: red;
+    border-radius: 0.3rem;
+    border-width: medium;
+    padding: 0.3rem;
+    margin-bottom: 50px;
+}
+
+#hint-button {
+    display: none;
+    padding: 0.4rem;
+    margin: auto;
+    background-color: yellow;
+    border-radius: 0.3rem;
+    border-color: red;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: green;
+    margin-top: 270px;
+    /* margin-bottom: 270px; */
+}
+
+footer p {
+    font-size: large;
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+/* .footer-list {
+margin: 1rem;
+}
+*/
+
+a,
+img,
+li {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+img {
+    width: 40px;
+    margin: 0.6rem;
+}
